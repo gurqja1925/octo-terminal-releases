@@ -11,7 +11,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Built%20with-Rust-orange?logo=rust" alt="Rust">
   <img src="https://img.shields.io/badge/Framework-Tauri%202.0-blue?logo=tauri" alt="Tauri">
-  <img src="https://img.shields.io/badge/Frontend-React%2018-61dafb?logo=react" alt="React">
+  <img src="https://img.shields.io/badge/Frontend-React%2019-61dafb?logo=react" alt="React">
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
   <img src="https://img.shields.io/badge/Platform-macOS%20%7C%20Windows-lightgrey" alt="Platform">
 </p>
@@ -31,12 +31,19 @@
 
 ## ✨ Why Octo Terminal?
 
-**Octo Terminal** is a lightweight, Rust-powered terminal application designed specifically for developers who work with AI coding assistants. Built with Tauri 2.0, it delivers native performance in a tiny package (~15MB) while providing a beautiful, modern interface.
+**Octo Terminal** is a lightweight, Rust-powered terminal app designed for developers who work with AI coding assistants. Built with Tauri 2.0, it delivers native performance in a small package while providing a clean interface with multi-project terminals and a built-in editor.
+
+### 🔗 Source Code & Issues
+
+This repository hosts **release artifacts only** (installers and updater metadata like `latest.json`).
+
+- Source code: https://github.com/johunsang/octo-terminal-src
+- Bug reports: https://github.com/johunsang/octo-terminal-src/issues
 
 ### 🦀 Rust at its Core
 
 - **Blazing Fast**: Native Rust backend for PTY management
-- **Memory Efficient**: Minimal resource footprint (~15MB)
+- **Memory Efficient**: Minimal resource footprint
 - **Cross-Platform**: Single codebase for macOS and Windows
 - **Secure**: Rust's memory safety guarantees
 
@@ -78,6 +85,12 @@ Run multiple terminals simultaneously in a single window:
 - **Per-Project Themes**: Each project gets its own color scheme
 - **Independent Sessions**: Each terminal runs in its own PTY
 
+### ✈️ Telegram Integration (Optional)
+
+- **Per-terminal linking**: bind a Telegram chat to a specific terminal
+- **Mirroring**: send commands and/or output to Telegram
+- **Remote control**: optionally accept commands from Telegram
+
 ### 📁 Multi-Project Management
 
 - **Project Tabs**: Quick navigation between projects
@@ -97,13 +110,6 @@ Run multiple terminals simultaneously in a single window:
 
 **Fonts**: Fira Code, JetBrains Mono, SF Mono, Menlo, Consolas, Monaco
 
-### ⚡ Productivity Features
-
-- **Quick Commands**: Save frequently used commands
-- **SSH Connections**: Store and quick-connect to servers
-- **Git Presets**: Common git commands one click away
-- **Keyboard Shortcuts**: Vim-inspired, fully customizable
-
 ---
 
 ## 📥 Download
@@ -112,9 +118,9 @@ Get the latest version from [Releases](https://github.com/johunsang/octo-termina
 
 | Platform | Architecture | Download |
 |----------|--------------|----------|
-| macOS | Apple Silicon (M1/M2/M3) | `Octo.Terminal_x.x.x_aarch64.dmg` |
-| macOS | Intel | `Octo.Terminal_x.x.x_x64.dmg` |
-| Windows | x64 | `Octo.Terminal_x.x.x_x64.msi` |
+| macOS | Apple Silicon (M1/M2/M3) | `Octo.Terminal_<version>_aarch64.dmg` |
+| macOS | Intel | `Octo.Terminal_<version>_x64.dmg` |
+| Windows | x64 | `Octo.Terminal_<version>_x64.msi` |
 
 ### macOS Installation
 
@@ -173,7 +179,7 @@ Get the latest version from [Releases](https://github.com/johunsang/octo-termina
 | Layer | Technology |
 |-------|------------|
 | **Backend** | Rust, Tauri 2.0, portable-pty |
-| **Frontend** | React 18, TypeScript, Vite |
+| **Frontend** | React 19, TypeScript, Vite |
 | **Terminal** | xterm.js, WebGL addon, Unicode11 |
 | **Styling** | CSS Variables, Custom themes |
 
@@ -192,7 +198,7 @@ Get the latest version from [Releases](https://github.com/johunsang/octo-termina
 
 ## 🐛 Bug Reports
 
-If you encounter any issues, please report them in [Issues](https://github.com/johunsang/octo-terminal-releases/issues).
+If you encounter any issues, please report them in [octo-terminal-src Issues](https://github.com/johunsang/octo-terminal-src/issues).
 
 ---
 
