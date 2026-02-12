@@ -35,10 +35,11 @@
 
 ### 🔗 Source Code & Issues
 
-This repository hosts **release artifacts only** (installers and updater metadata like `latest.json`).
+This repository hosts **release artifacts only** (installers and release notes).
 
-- Source code: https://github.com/johunsang/octo-terminal-src
-- Bug reports: https://github.com/johunsang/octo-terminal-src/issues
+- Downloads: https://github.com/johunsang/octo-terminal-releases/releases
+- Bug reports & feature requests (public): https://github.com/johunsang/octo-terminal-releases/issues
+- Source code (currently private): https://github.com/johunsang/octo-terminal-src
 
 ### 🦀 Rust at its Core
 
@@ -59,6 +60,7 @@ Seamlessly work with multiple AI coding assistants:
 |-----------|--------|-------|
 | **Claude Code** | 🟠 One-click | Normal, Auto-accept, Bypass |
 | **Codex CLI** | 🟢 One-click | Normal, Auto-edit, Full-auto |
+| **OpenCode** | 🔵 One-click | Normal |
 
 - **Preset Prompts**: Save and reuse your favorite prompts
 - **Slash Commands**: Quick access to `/help`, `/clear`, `/compact`, etc.
@@ -120,7 +122,7 @@ Get the latest version from [Releases](https://github.com/johunsang/octo-termina
 |----------|--------------|----------|
 | macOS | Apple Silicon (M1/M2/M3) | `Octo.Terminal_<version>_aarch64.dmg` |
 | macOS | Intel | `Octo.Terminal_<version>_x64.dmg` |
-| Windows | x64 | `Octo.Terminal_<version>_x64.msi` |
+| Windows | x64 | `Octo.Terminal_<version>_x64_en-US.msi` |
 
 ### macOS Installation
 
@@ -198,7 +200,9 @@ Get the latest version from [Releases](https://github.com/johunsang/octo-termina
 
 ## 🐛 Bug Reports
 
-If you encounter any issues, please report them in [octo-terminal-src Issues](https://github.com/johunsang/octo-terminal-src/issues).
+If you encounter any issues, please report them here:
+
+- https://github.com/johunsang/octo-terminal-releases/issues
 
 ---
 
