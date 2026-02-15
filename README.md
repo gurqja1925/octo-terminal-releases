@@ -322,7 +322,7 @@ CLI 명령어를 정해진 간격으로 자동 실행합니다.
 
 ### 11. 키보드 단축키
 
-> Mac은 `Cmd`, Windows/Linux는 `Ctrl`을 사용합니다.
+> Mac은 `Cmd`, Windows는 `Ctrl`을 사용합니다.
 
 **터미널:**
 
@@ -504,7 +504,7 @@ OpenAI Whisper API를 사용하여 음성을 텍스트로 변환합니다.
 - OS 기본 IME를 그대로 사용
 - 조합 중인 글자는 커서 위치에 오버레이로 표시
 - 조합 완료 시에만 PTY로 전송 (깜빡임 없음)
-- macOS, Windows, Linux 동일 방식
+- macOS, Windows 동일 방식
 
 **설정:** 설정 > Terminal > Input mode
 - **Direct**: 바로 입력
@@ -574,36 +574,6 @@ Launchpad 또는 Spotlight(`Cmd + Space` > "octo")에서 실행
 **Step 3: 실행**
 
 시작 메뉴에서 "Octo Terminal" 검색하여 실행
-
----
-
-### Linux
-
-**준비물:**
-- Ubuntu 22.04+ 또는 호환 배포판 (x86_64)
-- WebKit2GTK 4.0, GTK3, libayatana-appindicator3
-
-**Ubuntu/Debian (.deb):**
-
-```bash
-# 다운로드 후 설치
-sudo dpkg -i octo-terminal_*.deb
-
-# 의존성이 빠져있으면 자동 설치
-sudo apt-get install -f
-```
-
-**AppImage (모든 배포판):**
-
-```bash
-# 실행 권한 부여
-chmod +x Octo.Terminal_*.AppImage
-
-# 실행
-./Octo.Terminal_*.AppImage
-```
-
-[GitHub Releases](https://github.com/johunsang/octo-terminal-releases/releases) 에서 `.deb` 또는 `.AppImage` 파일 다운로드
 
 ---
 
@@ -686,15 +656,6 @@ Ollama: 로컬 서버 실행 필요 (ollama serve)
 Claude/Kimi: API 키 설정 필요
 ```
 
-**Q: Linux에서 실행이 안 돼요**
-```bash
-# 필요한 의존성 설치
-sudo apt-get install -y libwebkit2gtk-4.0-dev libssl-dev libgtk-3-dev libayatana-appindicator3-dev librsvg2-dev
-
-# AppImage의 경우 실행 권한 확인
-chmod +x Octo.Terminal_*.AppImage
-```
-
 ### 연락처
 
 - 버그 신고: [GitHub Issues](https://github.com/johunsang/octo-terminal-releases/issues)
@@ -711,7 +672,7 @@ chmod +x Octo.Terminal_*.AppImage
 | 코드 에디터 | Monaco Editor (코드), CodeMirror 6 (마크다운) |
 | 터미널 | xterm.js + WebGL 렌더러 |
 | 번들러 | Vite 7 |
-| 빌드/배포 | GitHub Actions (macOS, Windows, Linux) |
+| 빌드/배포 | GitHub Actions (macOS, Windows) |
 
 ---
 
