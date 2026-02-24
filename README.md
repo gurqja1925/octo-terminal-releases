@@ -732,6 +732,7 @@ Launchpad 또는 Spotlight(`Cmd + Space` > "octo")에서 실행
 4. **터미널 사용**: 하단 터미널에서 명령어 실행
 5. **AI 활용**: Claude/Codex/Kimi/Ollama 터미널로 AI 코딩
 6. **노트 작성**: 사이드바 "메모" 탭에서 마크다운 노트 관리
+7. **음성 입력**: `Right Alt` 키를 길게 누르고 말하기 → 키를 떼면 텍스트로 변환 (설정 > Agent > Whisper에서 OpenAI API 키 설정 필요)
 
 ### 뷰 모드 전환
 
