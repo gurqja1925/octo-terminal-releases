@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/icons/app_icon.png" width="128" alt="Octo Terminal" />
+  <img src="assets/app_icon.png" width="128" alt="Octo Terminal" />
 </p>
 
 <h1 align="center">Octo Terminal</h1>
