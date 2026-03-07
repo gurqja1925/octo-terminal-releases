@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.1.41-blue" alt="Version" />
+  <img src="https://img.shields.io/badge/version-0.1.42-blue" alt="Version" />
   <img src="https://img.shields.io/badge/platform-macOS%20(Apple%20Silicon)-black?logo=apple" alt="macOS" />
   <img src="https://img.shields.io/badge/platform-macOS%20(Intel)-gray?logo=apple" alt="macOS Intel" />
   <img src="https://img.shields.io/badge/platform-Windows%2010%2F11-blue?logo=windows" alt="Windows" />
@@ -79,6 +79,7 @@ It's an all-in-one AI-powered coding tool: terminal + editor + notes + AI + imag
 | Themes | 75 themes + various coding fonts |
 | Shortcuts | Octo / VSCode / IntelliJ presets |
 | Kanban Board | Per-project Kanban board (To Do / In Progress / In Review / Done, drag & drop, tags) |
+| Multilingual | 8 languages: English, Korean, Japanese, Chinese, French, German, Italian, Spanish |
 
 ### Server & Remote
 
@@ -489,6 +490,7 @@ NanoBanana is Octo Terminal's built-in AI design studio powered by Google Gemini
 | 테마 | 75개 테마 + 다양한 코딩 폰트 |
 | 단축키 | Octo / VSCode / IntelliJ 프리셋 |
 | 칸반 보드 | 프로젝트별 칸반 보드 (할 일/진행 중/검토 중/완료, 드래그 앤 드롭, 태그) |
+| 다국어 | 8개 언어: 영어, 한국어, 일본어, 중국어, 프랑스어, 독일어, 이탈리아어, 스페인어 |
 
 ### 서버 & 원격
 
