@@ -1,9 +1,25 @@
-![Octo Terminal](public/icons/app_icon.png)# Octo Terminal
+<p align="center">
+  <img src="public/icons/app_icon.png" width="128" alt="Octo Terminal" />
+</p>
 
-**A coding terminal powered by AI!**\
-**A coding terminal so easy, even elementary kids can use it!**
+<h1 align="center">Octo Terminal</h1>
 
-![Version](https://img.shields.io/badge/version-0.1.41-blue)![macOS](https://img.shields.io/badge/platform-macOS%20\(Apple%20Silicon\)-black?logo=apple)![macOS Intel](https://img.shields.io/badge/platform-macOS%20\(Intel\)-gray?logo=apple)![Windows](https://img.shields.io/badge/platform-Windows%2010%2F11-blue?logo=windows)![Rust](https://img.shields.io/badge/Built%20with-Rust-orange?logo=rust)![Tauri](https://img.shields.io/badge/Framework-Tauri%202-blue?logo=tauri)![React](https://img.shields.io/badge/Frontend-React%2019-61dafb?logo=react)---
+<p align="center">
+  <strong>A coding terminal powered by AI!</strong><br/>
+  <strong>A coding terminal so easy, even elementary kids can use it!</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/version-0.1.41-blue" alt="Version" />
+  <img src="https://img.shields.io/badge/platform-macOS%20(Apple%20Silicon)-black?logo=apple" alt="macOS" />
+  <img src="https://img.shields.io/badge/platform-macOS%20(Intel)-gray?logo=apple" alt="macOS Intel" />
+  <img src="https://img.shields.io/badge/platform-Windows%2010%2F11-blue?logo=windows" alt="Windows" />
+  <img src="https://img.shields.io/badge/Built%20with-Rust-orange?logo=rust" alt="Rust" />
+  <img src="https://img.shields.io/badge/Framework-Tauri%202-blue?logo=tauri" alt="Tauri" />
+  <img src="https://img.shields.io/badge/Frontend-React%2019-61dafb?logo=react" alt="React" />
+</p>
+
+---
 
 ## What is Octo Terminal?
 
