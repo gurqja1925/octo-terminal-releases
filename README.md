@@ -103,7 +103,7 @@ It's an all-in-one AI-powered coding tool: terminal + editor + notes + AI + imag
 | Built-in Browser | Browser panel + MCP integration for CLI-based browser control |
 | MCP Server | MCP server management + auto-integration with Claude/Codex CLI |
 | Vault | Password-protected storage for API keys / code snippets |
-| NanoBanana | AI image studio — banners, logos, icons, model photos (Gemini-powered) |
+| NanoBanana | AI design studio — 16 services: banners, logos, dev images, art, fashion models, outfits, influencer photos, ad packs, ad videos, cartoons, interior, pets, 360° rotation, smart store, web builder (Gemini/Imagen/Veo) |
 
 > Skills DB / Detached Window documentation: docs/SKILLS-DB-AND-STUDIO.md
 
@@ -355,28 +355,31 @@ You can import skill packs from GitHub repositories. The app supports:
 
 ---
 
-## NanoBanana — AI Image Studio
+## NanoBanana — AI Image & Design Studio
 
-NanoBanana is Octo Terminal's built-in AI image generation studio powered by Google Gemini. Generate marketing banners, logos, app icons, model photos, and more — all without leaving the terminal.
+NanoBanana is Octo Terminal's built-in AI design studio powered by Google Gemini (Gemini 3 Pro, Gemini 3.1 Flash, Imagen 4, Veo 3.1). Generate marketing banners, logos, app icons, fashion model photos, AI art, ad packages, web pages, and more — all without leaving the terminal.
 
-### Services
+### Services (16 total)
 
 | Service | Description |
 | --- | --- |
-| Dev Image | App icons, favicons, OG images for developers |
-| Banner | AI marketing banner generation |
-| Logo | AI logo design |
-| Art | AI art generation |
-| Model | AI model photo generation |
-| Outfit | Model outfit image compositing |
-| Influencer | Background replacement + outfit compositing |
-| Board | Poster template generation |
-| Ad Pack | Advertisement package generation |
-| Smart Store | E-commerce product images |
-| Interior | Interior design visualization |
-| Pet | Pet photo generation |
-| Cartoon | Cartoon style image conversion |
-| 360 Rotate | 360-degree product rotation images |
+| **Dev Image** | App icons, favicons, OG images, splash screens, store screenshots, badges, error/success/loading illustrations — 20+ developer image types |
+| **Banner** | AI marketing banner generation with mood, color scheme, background type, logo upload, multi-draft support |
+| **Logo** | AI logo design — 10 types (symbol, wordmark, combined, stacked, emblem, lettermark, mascot, abstract, negative space, motion-ready) with 18 styles and font options |
+| **Art** | AI art generation/style transfer — 26 art styles (Van Gogh, Monet, Picasso, watercolor, oil painting, ink wash, etc.) with 3 modes (transform, create, reference) |
+| **Model** | AI fashion model photo generation — gender, age, ethnicity, body type, pose, background, lighting, camera angle presets |
+| **Outfit** | Virtual try-on — upload model photo + clothing items, AI composites the outfit with studio/outdoor/lifestyle backgrounds |
+| **Influencer** | AI influencer photo — reference person + product images + 60+ background scenes (9 categories), mood, pose, lighting presets |
+| **Board** | Poster template generation |
+| **Ad Pack** | Full ad package — product detail pages + promotional images, 8 styles, 8 color schemes |
+| **Ad Video** | AI ad video generation (Veo model) — 8 video styles (cinematic, action, emotional, minimal, luxury, trendy, tutorial, before/after), shorts/reels support |
+| **Cartoon** | AI webtoon/manga/comic — 26 art styles (webtoon, manga, anime, chibi, pixel, Ghibli, Disney, Marvel, etc.) |
+| **Interior** | AI interior design — 6 room types, 7+ styles (modern, Nordic, minimal, industrial, natural, luxury, Japanese) |
+| **Pet** | AI pet photo generation + pet outfit try-on — dogs (10+ breeds) and cats |
+| **Rebuild** | Existing product page AI enhancement — layout, typography, color, quality improvement |
+| **360 Rotate** | 360° product rotation view — 4/8-direction generation from single product image, optional rotation video via Veo |
+| **Smart Store** | Naver Smart Store branding package — store logo, product thumbnails, detail pages, banners for 19 categories |
+| **Web Builder** | AI website generator — 14 site types (landing, portfolio, blog, shop, etc.), generates complete single-page HTML with preview |
 
 ### Setup
 
@@ -387,10 +390,12 @@ NanoBanana is Octo Terminal's built-in AI image generation studio powered by Goo
 ### Features
 
 - **Prompt-based generation** — Describe what you want in natural language
+- **Reference image upload** — Upload product/model/person photos for AI compositing
 - **Aspect ratio selection** — 1:1, 16:9, 9:16, 4:3, 3:4
-- **Image crop editor** — Click any generated image to crop/resize
+- **Multi-draft generation** — Generate multiple variations at once
+- **Image crop editor** — Click any generated image to crop/resize/rotate/flip with aspect ratio presets
 - **Auto-save** — Generated images are saved to `{project}/docs/img/`
-- **Gallery view** — Browse all generated images with history
+- **AI models** — Gemini 3 Pro (high quality), Gemini 3.1 Flash (fast), Imagen 4 (photo-realistic), Veo 3.1 (video)
 
 ---
 
@@ -508,7 +513,7 @@ NanoBanana is Octo Terminal's built-in AI image generation studio powered by Goo
 | 내장 브라우저 | 브라우저 패널 + MCP 연동으로 CLI에서 브라우저 제어 |
 | MCP 서버 | MCP 서버 관리 + Claude/Codex CLI 자동 연동 |
 | 볼트 | 비밀번호로 보호되는 API 키 / 코드 조각 저장소 |
-| NanoBanana | AI 이미지 스튜디오 — 배너, 로고, 아이콘, 모델 사진 (Gemini 기반) |
+| NanoBanana | AI 디자인 스튜디오 — 16개 서비스: 배너, 로고, 개발 이미지, 아트, 패션 모델, 착장, 인플루언서, 광고 팩, 광고 영상, 카툰, 인테리어, 펫, 360도 회전, 스마트스토어, 웹 빌더 (Gemini/Imagen/Veo) |
 
 > Skills DB/분리창 운영 문서: docs/SKILLS-DB-AND-STUDIO.md
 
@@ -760,28 +765,31 @@ GitHub 저장소에서 스킬 팩을 가져올 수 있습니다:
 
 ---
 
-## NanoBanana — AI 이미지 스튜디오
+## NanoBanana — AI 이미지 & 디자인 스튜디오
 
-NanoBanana는 Google Gemini 기반의 내장 AI 이미지 생성 스튜디오입니다. 마케팅 배너, 로고, 앱 아이콘, 모델 사진 등을 터미널을 벗어나지 않고 생성할 수 있습니다.
+NanoBanana는 Google Gemini (Gemini 3 Pro, Gemini 3.1 Flash, Imagen 4, Veo 3.1) 기반의 내장 AI 디자인 스튜디오입니다. 마케팅 배너, 로고, 앱 아이콘, 패션 모델 사진, AI 아트, 광고 패키지, 웹페이지 등을 터미널을 벗어나지 않고 생성할 수 있습니다.
 
-### 서비스 목록
+### 서비스 목록 (총 16개)
 
 | 서비스 | 설명 |
 | --- | --- |
-| 개발 이미지 | 앱 아이콘, 파비콘, OG 이미지 생성 |
-| 배너 | AI 마케팅 배너 생성 |
-| 로고 | AI 로고 디자인 |
-| 아트 | AI 아트 생성 |
-| 모델 | AI 모델 사진 생성 |
-| 착장 | 모델 착장 이미지 합성 |
-| 인플루언서 | 배경 교체 + 착장 합성 |
-| 포스터 | 포스터 템플릿 생성 |
-| 광고 팩 | 광고 패키지 생성 |
-| 스마트스토어 | 이커머스 상품 이미지 |
-| 인테리어 | 인테리어 디자인 시각화 |
-| 펫 | 반려동물 사진 생성 |
-| 카툰 | 카툰 스타일 이미지 변환 |
-| 360 회전 | 360도 상품 회전 이미지 |
+| **개발 이미지** | 앱 아이콘, 파비콘, OG 이미지, 스플래시, 스토어 스크린샷, 배지, 에러/성공/로딩 일러스트 — 20종 이상 |
+| **배너** | AI 마케팅 배너 생성 — 분위기, 색상, 배경 타입, 로고 업로드, 멀티 시안 지원 |
+| **로고** | AI 로고 디자인 — 10가지 타입 (심볼, 워드마크, 콤비네이션, 스택형, 엠블럼, 레터마크, 마스코트, 추상, 네거티브 스페이스, 모션 레디) + 18가지 스타일 |
+| **아트** | AI 아트 생성/스타일 변환 — 26가지 화풍 (반 고흐, 모네, 피카소, 수채화, 유화, 수묵화 등) + 3가지 모드 (변환, 생성, 참조) |
+| **모델** | AI 패션 모델 사진 — 성별, 나이대, 인종, 체형, 포즈, 배경, 조명, 카메라 앵글 프리셋 |
+| **착장** | 가상 착장 — 모델 사진 + 의류 아이템 업로드, AI가 스튜디오/야외/라이프스타일 배경에 합성 |
+| **인플루언서** | AI 인플루언서 사진 — 참조 인물 + 제품 이미지 + 60개 이상 배경 씬 (9개 카테고리), 분위기, 포즈, 조명 프리셋 |
+| **포스터** | 포스터 템플릿 생성 |
+| **광고 팩** | 풀 광고 패키지 — 상품 상세페이지 + 홍보 이미지, 8가지 스타일, 8가지 컬러 스킴 |
+| **광고 영상** | AI 광고 영상 (Veo 모델) — 8가지 영상 스타일 (시네마틱, 액션, 감성, 미니멀, 럭셔리, 트렌디, 튜토리얼, 비포/애프터), 쇼츠/릴스 지원 |
+| **카툰** | AI 웹툰/만화 — 26가지 아트 스타일 (웹툰, 망가, 애니메, 치비, 픽셀, 지브리, 디즈니, 마블 등) |
+| **인테리어** | AI 인테리어 디자인 — 6가지 방 타입, 7가지 이상 스타일 (모던, 북유럽, 미니멀, 인더스트리얼, 내추럴, 럭셔리, 재패니즈) |
+| **펫** | AI 반려동물 사진 + 펫 착장 합성 — 강아지 (10종 이상 견종) & 고양이 |
+| **리빌드** | 기존 상품 상세페이지 AI 개선 — 레이아웃, 타이포그래피, 색감, 화질 향상 |
+| **360 회전** | 360도 상품 회전 뷰 — 단일 상품 사진에서 4/8방향 생성, Veo로 회전 영상 옵션 |
+| **스마트스토어** | 네이버 스마트스토어 브랜딩 패키지 — 스토어 로고, 상품 썸네일, 상세페이지, 배너 (19개 카테고리) |
+| **웹 빌더** | AI 웹사이트 생성기 — 14가지 사이트 타입 (랜딩, 포트폴리오, 블로그, 쇼핑몰 등), 완전한 단일 HTML 페이지 생성 + 미리보기 |
 
 ### 설정 방법
 
@@ -792,10 +800,12 @@ NanoBanana는 Google Gemini 기반의 내장 AI 이미지 생성 스튜디오입
 ### 기능
 
 - **프롬프트 기반 생성** — 원하는 이미지를 자연어로 설명
+- **참조 이미지 업로드** — 제품/모델/인물 사진 업로드 후 AI 합성
 - **비율 선택** — 1:1, 16:9, 9:16, 4:3, 3:4
-- **이미지 크롭 에디터** — 생성된 이미지 클릭으로 크롭/리사이즈
+- **멀티 시안 생성** — 한 번에 여러 변형 생성
+- **이미지 크롭 에디터** — 생성된 이미지 클릭으로 크롭/리사이즈/회전/뒤집기 + 비율 프리셋
 - **자동 저장** — 생성된 이미지는 `{프로젝트}/docs/img/`에 저장
-- **갤러리 뷰** — 생성 히스토리 포함 이미지 갤러리 탐색
+- **AI 모델** — Gemini 3 Pro (고품질), Gemini 3.1 Flash (빠른), Imagen 4 (사실적), Veo 3.1 (영상)
 
 ---
 
