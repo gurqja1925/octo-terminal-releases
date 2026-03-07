@@ -1,12 +1,14 @@
 <p align="center">
-  <img src="assets/app_icon.png" width="128" alt="Octo Terminal" />
+  <img src="assets/app_icon.png" width="128" alt="Octo Terminal — The Ultimate Vibe Coding Terminal with AI" />
 </p>
 
 <h1 align="center">Octo Terminal</h1>
+<h3 align="center">The Ultimate Vibe Coding Terminal</h3>
 
 <p align="center">
-  <strong>A coding terminal powered by AI!</strong><br/>
-  <strong>A coding terminal so easy, even elementary kids can use it!</strong>
+  <strong>AI-powered all-in-one terminal for vibe coding.</strong><br/>
+  Built-in Claude, Codex, Ollama, Kimi — terminal + editor + notes + browser in a single app.<br/>
+  <em>The best AI coding terminal for developers who vibe code.</em>
 </p>
 
 <p align="center">
@@ -19,11 +21,20 @@
   <img src="https://img.shields.io/badge/Frontend-React%2019-61dafb?logo=react" alt="React" />
 </p>
 
+<!--
+SEO Keywords: vibe coding, vibe coding terminal, ai terminal, ai coding terminal, ai ide,
+best coding terminal, ultimate coding terminal, claude terminal, codex terminal, ollama terminal,
+ai developer tools, ai pair programming, ai code editor, terminal emulator, tauri terminal,
+rust terminal, react terminal, xterm terminal, ssh terminal, mcp server, ai agent terminal,
+vibe code, coding with ai, ai-powered ide, desktop terminal app, macos terminal, windows terminal,
+developer productivity, ai coding assistant, multi ai terminal, ai orchestration
+-->
+
 ---
 
 ## What is Octo Terminal?
 
-**Octo Terminal** is like an octopus with many arms (terminals)! It's an all-in-one coding tool: terminal + editor + notes + AI in a single window. It also supports various document viewers (PowerPoint, Word, Excel, PDF, EPUB) and a Kanban board.
+**Octo Terminal** is the ultimate vibe coding terminal — like an octopus with many arms (terminals)! It's an all-in-one AI-powered coding tool: terminal + editor + notes + AI in a single window. Run Claude, Codex, Ollama, and Kimi side by side. It also supports various document viewers (PowerPoint, Word, Excel, PDF, EPUB) and a Kanban board.
 
 ---
 
